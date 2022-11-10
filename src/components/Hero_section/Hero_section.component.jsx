@@ -36,6 +36,7 @@ class Hero_section extends Component {
                         <button className='button_2_HH'  Link="/"><h3 className="text-S">{LANG[lang][3]}</h3></button>
                     </div>
                 </div>
+                <div className='gradient'></div>
             </div>
         );
     }
