@@ -35,9 +35,14 @@
     }
     .Hero-buttons{
         margin-bottom: 10%;
-        .BUTTON{
-            
-            padding-left: 60%;
+        .button_1_HH{
+            color:"white";border: 0;background:linear-gradient(30deg,#fb2f7b, #ff845d);
+            margin-left: 165%;
+        }
+        .button_2_HH{
+            background-color:"white";border: 0;
+            margin-left: 65%;
+            white-space: nowrap;
         }
         margin-left: 20%;
         align-items: flex-end;
@@ -83,11 +88,23 @@
             color: white;
         }
         .Hero-buttons{
-            margin-bottom: 10%; 
-            .BUTTON{
-                
+            display: flex;
+            width: 25%;
+            flex-direction: column;
+            justify-content: center;
+            .button_1_HH{
+                margin-top: 45%;
+                color:"white";border: 0;background:linear-gradient(30deg,#fb2f7b, #ff845d);
+                margin-bottom: 15%;
             }
-            margin-left: 100%;
+            .button_2_HH{
+                background-color:"white";border: 0; white-space: nowrap;
+            }
+            h3{
+                font-size: 95%;
+            }
+            margin-bottom: 10%; 
+            margin-left: 37%;
         }
     }
     }

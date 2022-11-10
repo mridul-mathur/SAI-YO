@@ -31,7 +31,7 @@ export default class Retreat_page extends Component {
     return (
       <div className="Retreat_page">
         <div className='heading_RR'>
-        <div className='back_B'><Link to="/"><p>{"<"}</p></Link></div>
+        <div className='back_B'><Link to={"/"+this.props.lang}><p>{"<"}</p></Link></div>
          <p>SAI<img src={om} alt="om"/>YO</p><br/>
          <h1>{LANG[this.props.lang][6]}<br/><span className='text-S'>{LANG[this.props.lang][7]}</span>{LANG[this.props.lang][8]}</h1>
          <div class="graphic">

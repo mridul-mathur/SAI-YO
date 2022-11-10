@@ -32,8 +32,8 @@ class Hero_section extends Component {
   viewport={{ once: true }}
   transition={{delay:0.4}}><span className='Hero-slogan'>{LANG[lang][0]} <span>{LANG[lang][1]}</span></span></motion.div>
                     <div className='Hero-buttons'>
-                        <Button color="white" background="linear-gradient(30deg,#fb2f7b, #ff845d)"  Link="/"><h3 style={{color:"#f5f5f5"}}>{LANG[lang][2]}</h3></Button>
-                        <div className="BUTTON"><Button color="#f5f5f5"  Link="/"><h3 className="text-S">{LANG[lang][3]}</h3></Button></div>
+                        <button className='button_1_HH'><h3 style={{color:"#f5f5f5"}}>{LANG[lang][2]}</h3></button>
+                        <button className='button_2_HH'  Link="/"><h3 className="text-S">{LANG[lang][3]}</h3></button>
                     </div>
                 </div>
             </div>

@@ -44,7 +44,7 @@ export default class Retreats extends Component {
           <p>{this.state.TTC?LANG[lang][5]:LANG[lang][6]}</p>
           </motion.div>
           <div className='Retreats-buttons'>
-                      <Link to="/Retreat"><Button color="white" background="linear-gradient(30deg,#fb2f7b, #ff845d)"  Link="/"><h3 style={{color:"white"}}>{LANG[lang][3]}</h3></Button></Link>
+                      <Link to={lang+"/Retreat"}><Button color="white" background="linear-gradient(30deg,#fb2f7b, #ff845d)"  Link="/"><h3 style={{color:"white"}}>{LANG[lang][3]}</h3></Button></Link>
           </div>
         </div>
       </div>
