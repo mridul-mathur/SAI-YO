@@ -1,0 +1,44 @@
+
+.nav-Back{
+  background-color: rgba(255, 161, 161, 0.8);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  .navbar-brand{
+    font-size: 44px;
+    margin-left: 5%;
+  }
+  .navbar-collapse{
+    .navbar-nav{
+      padding-left: 50%;
+      color: white;
+      .nav-item{
+        padding-left: 15px;
+        padding-right: 5px;
+      .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        color: white;
+        cursor: pointer;
+      }
+      
+      .hover-underline-animation:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        transform: scaleX(0);
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(30deg,#fb2f7b, #ff845d);
+        transform-origin: bottom right;
+        transition: transform 0.25s ease-out;
+      }
+      
+      .hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+    }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+@media screen and (min-width:426px){
+.Hero{
+    background-color: #FFA1A1;
+.Hero-title{
+    position: relative;
+    p{
+        color: white;
+
+        margin-top: -10%;
+        padding-top: 13%;
+        margin-bottom: 2%;
+        font-family: 'El Messiri', sans-serif;
+        font-size:1655%;
+    }
+    img{
+        margin-top: -5%;
+        width: 15%;
+    }
+}
+.Hero-content{
+    display: flex;
+    padding-left: 9%;
+    .Hero-slogan{
+        span{
+            background: -webkit-linear-gradient(30deg,#fb2f7b, #ff845d);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        position: absolute;
+        text-align: left;
+        padding-right: 65%;
+        font-size: 205%;
+        color: white;
+    }
+    .Hero-buttons{
+        margin-bottom: 10%;
+        .BUTTON{
+            
+            padding-left: 60%;
+        }
+        margin-left: 20%;
+        align-items: flex-end;
+        display: flex;
+    }
+}
+}
+}
+@media screen and (max-width:425px) {
+    .Hero{
+        background-color: #FFA1A1;
+        width: 100%;
+    .Hero-title{
+        position: relative;
+        justify-content: center;
+        p{
+            color: white;
+            margin-top: 0%;
+            padding-top: 13%;
+            margin-bottom: 2%;
+            font-family: 'El Messiri', sans-serif;
+            font-size:365%;
+        }
+        img{
+            margin-top: -5%;
+            width: 15%;
+        }
+    }
+    .Hero-content{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20%;
+        .Hero-slogan{
+            span{
+                background: -webkit-linear-gradient(30deg,#fb2f7b, #ff845d);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            justify-content: start;
+            text-align: left;
+            margin-bottom: 50%;
+            font-size: 105%;
+            color: white;
+        }
+        .Hero-buttons{
+            margin-bottom: 10%; 
+            .BUTTON{
+                
+            }
+            margin-left: 100%;
+        }
+    }
+    }
+}

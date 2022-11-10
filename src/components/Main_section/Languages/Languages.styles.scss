@@ -1,0 +1,131 @@
+@media screen and (min-width:426px){
+.Languages{
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    .Languages-intro{
+        text-align: left;
+        padding-left: 5%;
+        padding-right: 60%;
+        h2{
+           margin-bottom: 0;
+           margin-right: 0;
+           font-size: 415%;
+        }
+        p{
+            color: #241b1e;
+            font-size: 130%;
+        }
+    }
+    .Languages-buttons{
+        display: flex;
+        position: absolute;
+        padding-bottom: 100%;
+        margin-top:5%;
+        margin-left: 50%;
+        #example1 {
+            .link{
+                text-decoration: none;
+                color: white;
+            }
+                
+                padding: 15px;
+                margin-left: 10%;
+                margin-right: 10%;
+                background-color:#ffa1a1 ;
+                padding-left: 10%;
+                padding-right: 10%;
+                box-shadow: #f2dde5 5px 10px;
+            }
+        .Languages-border-1{
+            position: absolute;
+            width:30%;
+            margin-top: -15%;
+            margin-left: -10%;
+            height:5%;
+            border-top: 5px solid #ffa1a1 ;
+            border-left: 5px solid #ffa1a1;
+        } 
+        .Languages-border-2{
+            position: absolute;
+            width:30%;
+            margin-top: 50%;
+            margin-left: 200%;
+            height:5%;
+            border-bottom: 5px solid #ffa1a1;
+            border-right: 5px solid #ffa1a1;
+        } 
+        .Language-button{
+            padding-left: 10%;
+        }
+    }   
+}
+}
+@media screen and (max-width:425px) {
+    .Languages{
+        margin-top: 5%;
+        margin-bottom: 75%;
+        display:flex;
+        flex-direction: column;
+        .Languages-intro{
+            text-align: left;
+            position: absolute;
+            padding-left: 4%;
+            padding-right: 60%;
+            h2{
+               margin-bottom: 0;
+               margin-right: 0;
+               font-size: 415%;
+            }
+            p{
+
+                color: #241b1e;
+                font-size: 130%;
+            }
+        }
+        .Languages-buttons{
+            
+            margin-top:85%;
+            margin-left: 20%;
+            #example1 {
+                .link{
+                    text-decoration: none;
+                    color: white;
+                }
+                    
+                    padding: 15px;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    width: 50%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    background-color:#ffa1a1 ;
+                    padding-left: 10%;
+                    padding-right: 10%;
+                    box-shadow: #f2dde5 5px 10px;
+                }
+            .Languages-border-1{
+                position: absolute;
+                width:20%;
+                margin-top: -15%;
+                margin-left: -5%;
+                height:10%;
+                border-top: 5px solid #ffa1a1 ;
+                border-left: 5px solid #ffa1a1;
+            } 
+            .Languages-border-2{
+                position: absolute;
+                width:20%;
+                margin-top: 0%;
+                margin-left: 40%;
+                height:10%;
+                border-bottom: 5px solid #ffa1a1;
+                border-right: 5px solid #ffa1a1;
+            } 
+            .Language-button{
+                padding-left: 10%;
+            }
+        }   
+    }
+}

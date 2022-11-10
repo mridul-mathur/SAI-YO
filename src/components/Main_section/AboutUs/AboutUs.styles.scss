@@ -1,0 +1,101 @@
+@media screen and (min-width:426px){
+    .AboutUs{
+    margin-bottom: 15%;
+    .AboutUs-content{
+        padding-left: 5%;
+        padding-right: 55%;
+        text-align: start;
+        h1{
+            font-size: 600%;
+        }
+        p{
+            color: #241b1e;
+            font-size: 110%;
+        }
+    }
+    .AboutUs-Img{
+        position: relative;
+        margin-top: -45%;
+        margin-left: 20%;
+        .back1{
+            z-index: -1;
+            width: 50%;
+            height: 110%;
+            margin-top: -75%;
+            margin-left: 70%;
+            position: absolute;
+            overflow-x: hidden;
+            background-color:#ffa1a1;
+        }
+        .back2{
+            z-index: -2;
+            position:absolute;
+            width: 40%;
+            height: 103%;
+            margin-top: -72%;
+            margin-left: 55%;
+            overflow-x: hidden;
+            border: 5px #fb2f7b solid;
+        }
+        .Img{
+            
+            margin-top: 10%;
+            margin-left: 56%;
+            border: 10px solid #F2dde1;
+            width: 40%;
+        }
+    }
+}
+}
+@media screen and (max-width:425px){
+    .AboutUs{
+    display: flex;
+    flex-direction: column;    
+    margin-bottom: 50%;
+    .AboutUs-content{
+        padding-bottom: 40%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: start;
+        h1{
+            font-size: 600%;
+        }
+        p{
+            color: #241b1e;
+            font-size: 110%;
+        }
+    }
+    .AboutUs-Img{
+        position: relative;
+        margin-top: -10%;
+        margin-left: -10%;
+        .back1{
+            z-index: -1;
+            width: 70%;
+            height: 120%;
+            margin-top: -135%;
+            margin-left: 40%;
+            position: absolute;
+            overflow-x: hidden;
+            background-color:#ffa1a1;
+        }
+        .back2{
+            z-index: -2;
+            position:absolute;
+            width: 40%;
+            height: 113%;
+            margin-top: -131%;
+            margin-left: 15%;
+            overflow-x: hidden;
+            border: 5px #fb2f7b solid;
+        }
+        .Img{
+            margin-bottom: 10%;
+            margin-top: 0%;
+            margin-left: 16%;
+            border: 10px solid #F2dde1;
+            width: 70%;
+        }
+    }
+}
+}
