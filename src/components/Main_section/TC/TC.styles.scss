@@ -18,7 +18,7 @@
     height: 50%;
     z-index: 0;
     h1{
-        font-size: 415%;
+        font-size: 575%;
     }
 }
 .TC-cards{
@@ -26,6 +26,7 @@
     display: flex;
 .card1,.card2,.card3{
     z-index: 2;
+    font-size: 120%;
     padding-top: 3%;
     padding-bottom: 3%;
     margin-left: 7.5%;
