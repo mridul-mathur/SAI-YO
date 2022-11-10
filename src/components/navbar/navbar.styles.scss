@@ -9,11 +9,13 @@
   }
   .navbar-collapse{
     .navbar-nav{
-      padding-left: 50%;
+      padding-left: 38%;
       color: white;
       .nav-item{
-        padding-left: 15px;
-        padding-right: 5px;
+        white-space: nowrap;
+        font-size: 24px;
+        padding-left: 10px;
+        padding-right: 0px;
       .hover-underline-animation {
         display: inline-block;
         position: relative;

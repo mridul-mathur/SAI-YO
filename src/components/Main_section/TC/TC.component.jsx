@@ -13,7 +13,7 @@ export default class TC extends Component {
       <div className='TC'>
         <div className='border1'></div>
         <div className='TC-container'>
-          <h1 className='text-S'>Terms and Condition</h1>
+          <h1 className='text-S'>Guidelines</h1>
         </div>
         <div className='TC-cards'>
         <div className='card1'>

@@ -27,21 +27,22 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        margin-top: -5%;
         position: absolute;
         text-align: left;
-        padding-right: 65%;
-        font-size: 205%;
+        padding-right: 50%;
+        font-size: 250%;
         color: white;
     }
     .Hero-buttons{
         margin-bottom: 10%;
         .button_1_HH{
             color:"white";border: 0;background:linear-gradient(30deg,#fb2f7b, #ff845d);
-            margin-left: 165%;
+            margin-left: 190%;
         }
         .button_2_HH{
             background-color:"white";border: 0;
-            margin-left: 65%;
+            margin-left: 10%;
             white-space: nowrap;
         }
         margin-left: 20%;
