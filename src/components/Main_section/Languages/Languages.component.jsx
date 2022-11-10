@@ -34,19 +34,19 @@ export default class Languages extends Component {
         <div className='Languages-buttons'>
             <div className='Languages-border-1'></div>
             <div id="example1">
-            <Link to="/" className='link'>
+            <Link to="/english" className='link'>
                 <h3>English</h3>
                 <h1>Aa</h1> 
             </Link>   
             </div>
             <div id="example1">
-              <Link to="/gm" className='link'>
+              <Link to="/german" className='link'>
                 <h3>German</h3>
                 <h1>Aa</h1>
               </Link>
             </div>
            <div id="example1"> 
-            <Link to="/sp" className='link'>
+            <Link to="/spanish" className='link'>
                 <h3>Spanish</h3>
                 <h1>Nn</h1>
             </Link>

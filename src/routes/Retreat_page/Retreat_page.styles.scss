@@ -320,6 +320,12 @@
                         -webkit-text-fill-color: transparent;
                     }
                 }
+                button:visited{
+                    border: 0;background:linear-gradient(30deg,#fb2f7b, #ff845d);
+                    h3{
+                        color: white;
+                    }
+                }
                 
                 margin-left: 5%;
                 margin-right: 5%;
