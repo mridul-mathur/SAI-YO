@@ -2,7 +2,7 @@
     .Instructors{
     .Instructors-container{
         display: flex;
-        margin-bottom: 15%;
+        margin-bottom: 10%;
         aside {
             display: block;
             position: relative;
@@ -69,6 +69,7 @@
               }
               p{
                 text-align: right;
+                font-size: 160%;
               }
               aside h3 {
                 padding-left: 15%;

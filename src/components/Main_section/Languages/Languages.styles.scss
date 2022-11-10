@@ -1,8 +1,8 @@
 @media screen and (min-width:426px){
 .Languages{
-    margin-top: 5%;
-    margin-bottom: 10%;
-    padding-bottom: 10%;
+    margin-top: 10%;
+    margin-bottom:-5%;
+    padding-bottom: 0%;
     display: flex;
     .Languages-intro{
         text-align: left;
@@ -37,6 +37,13 @@
                 padding-left: 10%;
                 padding-right: 10%;
                 box-shadow: #f2dde5 5px 10px;
+                transition: 0.5s;
+            }
+            #example1:hover{
+                box-shadow: #f2dde5 3px 7px;
+            }
+            #example1:active{
+                box-shadow: #f2dde5 1px 5px;
             }
         .Languages-border-1{
             position: absolute;
@@ -65,7 +72,7 @@
 @media screen and (max-width:425px) {
     .Languages{
         margin-top: 5%;
-        margin-bottom: 75%;
+        margin-bottom: 5%;
         display:flex;
         flex-direction: column;
         .Languages-intro{
@@ -105,6 +112,9 @@
                     padding-right: 10%;
                     box-shadow: #f2dde5 5px 10px;
                 }
+            #example1:hover{
+                box-shadow: #f2dde5 0px 0px;
+            }
             .Languages-border-1{
                 position: absolute;
                 width:20%;
