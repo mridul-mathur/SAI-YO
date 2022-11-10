@@ -46,6 +46,7 @@ export default class Retreat_page extends Component {
                 <li className='button_h'><button onClick={handleChange12}><h3>{"12 "+LANG[this.props.lang][9]}</h3></button></li>
             </ul>
         </div>
+        <div className='gradient'><p>Hello</p></div>
         </div>
         <div className='content_RR'>
             <div className='sec-1'>
