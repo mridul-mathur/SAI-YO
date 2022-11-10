@@ -12,6 +12,7 @@ function App() {
         <Route path="/german" element={<Homepage lang="german"/>}/>
         <Route path="/spanish" element={<Homepage lang="spanish"/>}/>
         <Route path="/Retreat" element={<Retreat_page lang="english"/>}/>
+        <Route path="/english/Retreat" element={<Retreat_page lang="english"/>}/>
         <Route path="/english/english/Retreat" element={<Retreat_page lang="english"/>}/>
         <Route path="/german/german/Retreat" element={<Retreat_page lang="german"/>}/>
         <Route path="/spanish/spanish/Retreat" element={<Retreat_page lang="spanish"/>}/>
