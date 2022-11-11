@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import './navbar.styles.scss'
 
-const LANG={'english':["Home","Courses","About us","Instruction","location"],
-            'german':["Heimat","Kurse","Über uns","Anweisung","Lage"],
-            'spanish':["Hogar","Cursos","Sobre nosotras","Instrucciones","ubicación"]}
+const LANG={'english':["Home","Retreats","About us","Instructor","Location"],
+            'german':["Heimat","Rückzüge","Über uns","Lehrerin","Lage"],
+            'spanish':["Hogar","Cretiros","Sobre Nosotras","Instructora","Ubicación"]}
 
 export default class Navbar extends Component {
   render() {
