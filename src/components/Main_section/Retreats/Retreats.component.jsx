@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Retreats.styles.scss';
 import { motion } from 'framer-motion';
-import girl1 from '../../../assets/259083412.jpeg';
+import girl1 from '../../../assets/girl1.jpg';
 import Button from '../../Button/Button.component';
 import { Link } from 'react-router-dom';
 

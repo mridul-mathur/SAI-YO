@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './navbar.styles.scss'
 
 const LANG={'english':["Home","Retreats","About us","Instructor","Location","English"],
@@ -20,7 +21,7 @@ export default class Navbar extends Component {
         <a className="nav-link hover-underline-animation" style={{color:'white'}} href="#">{LANG[lang][0]} <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link hover-underline-animation" style={{color:'white'}}  href="#">{LANG[lang][1]}</a>
+      <Link to={lang+"/Retreat"}><a className="nav-link hover-underline-animation" style={{color:'white'}}  href="#">{LANG[lang][1]}</a></Link>
       </li>
       <li className="nav-item">
         <a className="nav-link hover-underline-animation" style={{color:'white'}}  href="#">{LANG[lang][2]}</a>

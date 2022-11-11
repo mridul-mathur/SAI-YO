@@ -114,9 +114,9 @@
         
     .Img{
         margin-top: 5%;
-        margin-left: -50%;
+        margin-left: -60%;
         border: 10px solid #f2dde5;
-        width: 35%;
+        width: 25%;
         box-shadow: -25px 25px #ffa1a1;
     }
     }
@@ -258,6 +258,7 @@
                 height: 65%;
                 width: 25%;
                 margin-top: 5%;
+                border: 6px solid #ffa1a1;
                 margin-left: 5%;
                 position: absolute;
                 background-color:#FFA1A1;
@@ -294,8 +295,17 @@
         position: absolute;
         margin-top: 12%;
         margin-left: 3%;
-        p{
+
+        .Back_b{
+            background-color: transparent;
+            margin-bottom: 0%;
+            font-size: 120%; 
+            padding-top: 20%;
+            border: 3px solid #FB2F7B;
+            p{
+            line-height: 0.5;
             color: #FB2F7B;
+            }
         }
     }
     p{
@@ -313,42 +323,53 @@
     h1{
         color: white;
         font-size: 355%;
+        padding-bottom: 120%;
     }
     .graphic{
+        rotate: 90deg;
         .backvec{
-            z-index: 10;
-            width: 280px;
-            height: 225px;
-            margin-top: 10%;
-            margin-left: 6%;
+            z-index: 2;
+            width: 90%;
+            position: absolute;
+            height: 355px;
+            margin-top: 0%;
+            margin-left: -56%;
             background: #ffffff;
         }
         .outlinevec{
-            z-index:100;
-            position: absolute;
+            z-index:1;
             box-sizing: border-box;
-            width: 220px;
-            height: 20px;
-            margin-top: -6%;
-            margin-left: 10%;
+            position: absolute;
+            width: 70%;
+            height: 89px;
+            margin-top: -10%;
+            margin-left: -45%;
             border-top: 10px  solid #FB2F7B;
             border-right: 10px  solid #FB2F7B;
             border-left: 10px  solid #FB2F7B;
         }
     }
     .heading_buttons{
-        margin-top: -50%;
+        margin-top: 10%;
+        transform: rotate(-90deg);
+        position: absolute;
+        margin-top: -30px;
+        margin-left: 30%;
         .buttons_h{
             list-style-type: none;
             display: flex;
-            margin-left: -10%;
+            flex-direction: column;
+            margin-left: 0%;
             .button_h{
                 button{
+                    margin-top: 80%;
                     background-color: #F2DDE5;
+                    white-space: nowrap;
                     border: 0;
                     h3{
                         background: -webkit-linear-gradient(30deg,#fb2f7b, #ff845d);
                         -webkit-background-clip: text;
+                        font-size: 20px;
                         -webkit-text-fill-color: transparent;
                     }
                 }
@@ -359,8 +380,6 @@
                     }
                 }
                 
-                margin-left: 5%;
-                margin-right: 5%;
             }
         }
     }
@@ -503,6 +522,7 @@
         }
         .img_cont{
             width: 90%;
+            display: none;
             height: 300px;
             background-color: #FFA1A1;
             margin-left: 5%;
@@ -531,9 +551,10 @@
             }
             .box{
                 height: 65%;
-                width: 85%;
+                width: 75%;
                 margin-top: 8%;
-                margin-left: 5%;
+                margin-left: -45%;
+                border: 6px solid #ffa1a1;
                 position: absolute;
                 background-color:#FFA1A1;
             }
