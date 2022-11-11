@@ -31,22 +31,22 @@ export default class Retreat_page extends Component {
     return (
       <div className="Retreat_page">
         <div className='heading_RR'>
-        <div className='back_B'><Link to={"/"+this.props.lang}><p>{"<"}</p></Link></div>
+        <div className='back_B'><Link to={"/"+this.props.lang}><button className='Back_b'><p>{"<"}</p></button></Link></div>
          <p>SAI<img src={om} alt="om"/>YO</p><br/>
          <h1>{LANG[this.props.lang][6]}<br/><span className='text-S'>{LANG[this.props.lang][7]}</span>{LANG[this.props.lang][8]}</h1>
          <div class="graphic">
             <div class="backvec">
-            <div class="outlinevec"></div>
-            </div>
-        </div>
-        <div className='heading_buttons'>
+            <div className='heading_buttons'>
             <ul className='buttons_h'>
                 <li className='button_h'><button onClick={handleChange3}><h3>{"3 "+LANG[this.props.lang][9]}</h3></button></li>
                 <li className='button_h'><button onClick={handleChange7}><h3>{"7 "+LANG[this.props.lang][9]}</h3></button></li>
                 <li className='button_h'><button onClick={handleChange12}><h3>{"12 "+LANG[this.props.lang][9]}</h3></button></li>
             </ul>
+            </div>
+            </div>
+            <div class="outlinevec"></div>
+            <div className='gradient'></div>
         </div>
-        <div className='gradient'><p>Hello</p></div>
         </div>
         <div className='content_RR'>
             <div className='sec-1'>
