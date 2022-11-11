@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
 import './navbar.styles.scss'
 
-const LANG={'english':["Home","Retreats","About us","Instructor","Location"],
-            'german':["Heimat","Rückzüge","Über uns","Lehrerin","Lage"],
-            'spanish':["Hogar","Cretiros","Sobre Nosotras","Instructora","Ubicación"]}
+const LANG={'english':["Home","Retreats","About us","Instructor","Location","English"],
+            'german':["Heimat","Rückzüge","Über uns","Lehrerin","Lage","German"],
+            'spanish':["Hogar","Cretiros","Sobre Nosotras","Instructora","Ubicación","Spanish"]}
 
 export default class Navbar extends Component {
   render() {
     const lang=this.props.lang
     return (
       <nav className="nav-Back navbar sticky-top  navbar-expand-lg">
-  <a className="navbar-brand text-S" href="#">{lang}</a>
+  <a className="navbar-brand text-S" href="#">{LANG[lang][5]}</a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

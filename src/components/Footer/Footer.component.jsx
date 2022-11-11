@@ -16,7 +16,7 @@ const Footer = () => {
                 </div>
           </CDBBox>
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-4" style={{ fontWeight: '300' }}>
               Home
             </p>
             <CDBBox flex="column" style={{ cursor: 'pointer', padding: '0' }}>
@@ -24,7 +24,7 @@ const Footer = () => {
             </CDBBox>
           </CDBBox>
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
+            <p className="h5 mb-4" style={{ fontWeight: '300' }}>
               Social Media
             </p>
             <CDBBox flex="column" style={{ cursor: 'pointer', padding: '0' }}>
@@ -32,8 +32,8 @@ const Footer = () => {
             </CDBBox>
           </CDBBox>
           <CDBBox>
-            <p className="h5 mb-4" style={{ fontWeight: '600' }}>
-              Canclation Policies
+            <p className="h5 mb-4" style={{ fontWeight: '300' }}>
+              Cancellation Policies
             </p>
             <CDBBox flex="column" style={{ cursor: 'pointer', padding: '0' }}>
               <CDBFooterLink href="/">Documents</CDBFooterLink>

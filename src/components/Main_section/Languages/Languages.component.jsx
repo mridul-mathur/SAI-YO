@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 import './Languages.styles.scss'
 import { Link } from 'react-router-dom';
 
-const LANG={'english':["Language","Select the language in which you would like to view website"],
-            'german':["Sprache","Wählen Sie die Sprache aus, in der Sie die Website anzeigen möchten"],
-            'spanish':["Idioma","Seleccione el idioma en el que le gustaría ver el sitio web"]}
+const LANG={'english':["Language","Choose your preferred Language and start your yoga and meditation journey with Saiomyo"],
+            'german':["Sprache","Wählen Sie Ihre bevorzugte Sprache und beginnen Sie Ihre Yoga- und Meditationsreise mit Saiomyo"],
+            'spanish':["Idioma","Elija su idioma preferido y comience su viaje de yoga y meditación con Saiomyo"]}
 
 
 

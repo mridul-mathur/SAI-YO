@@ -79,7 +79,7 @@
             text-align: left;
             position: absolute;
             padding-left: 4%;
-            padding-right: 60%;
+            padding-right: 5%;
             h2{
                margin-bottom: 0;
                margin-right: 0;
@@ -111,10 +111,14 @@
                     padding-left: 10%;
                     padding-right: 10%;
                     box-shadow: #f2dde5 5px 10px;
+                    transition: 0.5s;
                 }
-            #example1:hover{
-                box-shadow: #f2dde5 0px 0px;
-            }
+                #example1:hover{
+                    box-shadow: #f2dde5 3px 7px;
+                }
+                #example1:active{
+                    box-shadow: #f2dde5 1px 5px;
+                }
             .Languages-border-1{
                 position: absolute;
                 width:20%;
