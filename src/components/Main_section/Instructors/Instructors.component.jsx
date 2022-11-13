@@ -12,7 +12,7 @@ export default class Instructors extends Component {
   render() {
     const lang=this.props.lang;
     return (
-      <div className="Instructors">
+      <div className="Instructors" id="Instructors">
         <h1 className='text-S'>{LANG[lang][0]}</h1>
         <div className='Instructors-container'>
         <aside>

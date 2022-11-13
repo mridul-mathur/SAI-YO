@@ -14,7 +14,7 @@ export default class Languages extends Component {
   render() {  
     const lang=this.props.lang;
     return (
-      <div className="Languages">
+      <div className="Languages" id="Language">
         <div className='Languages-intro'>
         <motion.div
   initial={{ opacity: 0, translateY:-10}}

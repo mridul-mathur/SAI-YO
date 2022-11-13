@@ -12,7 +12,7 @@ export default class AboutUs extends Component {
   render() {
     const lang=this.props.lang;
     return (
-      <div className="AboutUs">
+      <div className="AboutUs" id="AU">
         <div className='AboutUs-content'>
           <h1 className='text-S'>{LANG[lang][0]}</h1>
           <motion.div

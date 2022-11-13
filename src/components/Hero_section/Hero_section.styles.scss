@@ -44,10 +44,17 @@
         color: white;
     }
     .Hero-buttons{
+        z-index: 10;
         margin-bottom: 10%;
         .button_1_HH{
             color:"white";border: 0;background:linear-gradient(30deg,#fb2f7b, #ff845d);
             margin-left: 165%;
+            h3{
+                .link{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
             margin-left: 190%;
         }
         .button_2_HH{
