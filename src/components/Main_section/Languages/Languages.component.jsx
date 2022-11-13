@@ -3,9 +3,9 @@ import { motion } from 'framer-motion'
 import './Languages.styles.scss'
 import { Link } from 'react-router-dom';
 
-const LANG={'english':["Language","Choose your preferred Language and start your yoga and meditation journey with Saiomyo"],
-            'german':["Sprache","Wählen Sie Ihre bevorzugte Sprache und beginnen Sie Ihre Yoga- und Meditationsreise mit Saiomyo"],
-            'spanish':["Idioma","Elija su idioma preferido y comience su viaje de yoga y meditación con Saiomyo"]}
+const LANG={'english':["Language","Select the language of your choice to explore the details and start your spiritual journey"],
+            'german':["Sprache","Wählen Sie die Sprache Ihrer Wahl, um die Details zu erkunden und Ihre spirituelle Reise zu beginnen"],
+            'spanish':["Idioma","Seleccione el idioma de su elección para explorar los detalles y comenzar su viaje espiritual"]}
 
 
 
@@ -35,7 +35,7 @@ export default class Languages extends Component {
             <div className='Languages-border-1'></div>
             <div id="example1">
               <Link to="/german" className='link'>
-                <h3>Deútsch</h3>
+                <h3>Deutsch</h3>
                 <h1>Ää</h1>
               </Link>
             </div>

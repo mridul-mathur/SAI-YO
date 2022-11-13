@@ -18,13 +18,19 @@
     height: 50%;
     z-index: 0;
     h1{
-        font-size: 57   5%;
+        font-size: 575%;
+    }
+    .h3{
+        font-size: 175%;
+        padding-left: 10%;
+        color: #241b1e;
     }
 }
 .TC-cards{
     padding-top: 15%;
     display: flex;
 .card1,.card2,.card3{
+    margin-top: 5%;
     z-index: 2;
     font-size: 120%;
     padding-top: 3%;

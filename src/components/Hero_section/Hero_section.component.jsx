@@ -4,9 +4,9 @@ import om from '../../assets/ompinkgrad.png'
 import { motion } from 'framer-motion';
 import Button from '../Button/Button.component';
 
-const LANG={'english':["Begin Your YOGA Journey in Your","Language","Enquiry","About us"],
-            'german':["Beginnen Sie Ihre YOGA-Reise in Ihrem","Sprache","Anfrage","Über uns"],
-            'spanish':["Comience su viaje de YOGA en su","Idioma","Consulta","Sobre nosotras"]
+const LANG={'english':["Begin Your Spiritual Journey in Your","Language","Enquiry","About us"],
+            'german':["Beginnen Sie Ihre spirituelle Reise in Ihrem","Sprache","Anfrage","Über uns"],
+            'spanish':["Comience su viaje espiritual en su","Idioma","Consulta","Sobre nosotras"]
         }
 
 
