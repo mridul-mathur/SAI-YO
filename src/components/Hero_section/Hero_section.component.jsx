@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Button from '../Button/Button.component';
 
 const LANG={'english':["Begin Your Spiritual Journey in Your","Language","Enquiry","About us"],
-            'german':["Beginnen Sie Ihre spirituelle Reise in Ihrem","Sprache","Anfrage","Über uns"],
+            'german':["Beginnen Sie Ihre spirituelle Reise in Ihrer","Sprache","Anfrage","Über uns"],
             'spanish':["Comience su viaje espiritual en su","Idioma","Consulta","Sobre nosotras"]
         }
 
