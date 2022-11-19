@@ -5,9 +5,9 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import Button from '../Button/Button.component';
 
-const LANG={'english':["Begin Your Spiritual Journey in Your","Language","ReadMore","About us"],
-            'german':["Beginnen Sie Ihre spirituelle Reise in Ihrem","Weiterlesen","Anfrage","Über uns"],
-            'spanish':["Comience su viaje espiritual en su","Idioma","LeeMas","Sobre nosotras"]
+const LANG={'english':["Begin Your Spiritual Journey in Your","Language","Enquiry","About us"],
+            'german':["Beginnen Sie Ihre spirituelle Reise in Ihrer","Sprache","Anfrage","Über uns"],
+            'spanish':["Comience su viaje espiritual en su","Idioma","Consulta","Sobre nosotras"]
         }
 
 

@@ -3,8 +3,8 @@ import { motion } from 'framer-motion'
 import './Languages.styles.scss'
 import { Link } from 'react-router-dom';
 
-const LANG={'english':["Language","Select the language of your choice to explore the details and start your spiritual journey"],
-            'german':["Sprache","Wählen Sie die Sprache Ihrer Wahl, um die Details zu erkunden und Ihre spirituelle Reise zu beginnen"],
+const LANG={'english':["Language","Select the language of your choice to explore the details and start your spiritual journey."],
+            'german':["Sprache","Wählen Sie die Sprache Ihrer Wahl, um die Details zu erkunden und mit Ihrem Spiritual zu beginnen Reise."],
             'spanish':["Idioma","Seleccione el idioma de su elección para explorar los detalles y comenzar su viaje espiritual"]}
 
 
