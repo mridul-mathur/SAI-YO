@@ -1,5 +1,6 @@
 {
   "name": "saiomyo",
+  "homepage": "https://saiOMyo.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
