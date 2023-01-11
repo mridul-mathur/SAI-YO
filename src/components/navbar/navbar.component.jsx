@@ -4,8 +4,8 @@ import om from '../../assets/ompinkgrad.png'
 import './navbar.styles.scss'
 
 const LANG={'english':["Home","Retreats","About us","Instructor","Location","English"],
-            'german':["Heimat","Rückzüge","Über uns","Lehrerin","Lage","German"],
-            'spanish':["Hogar","Cretiros","Sobre Nosotras","Instructora","Ubicación","Spanish"]}
+            'german':["Heimat","Rückzüge","Über uns","Lehrerin","Lage","Deutsch"],
+            'spanish':["Hogar","Cretiros","Sobre Nosotras","Instructora","Ubicación","Español"]}
 
 export default class Navbar extends Component {
   render() {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import potrait from '../../../assets/potrait_pic.jpeg' 
 import { motion } from 'framer-motion'
 import './Instructors.styles.scss'
 
