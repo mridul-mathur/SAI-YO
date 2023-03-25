@@ -2,6 +2,7 @@ import React from 'react';
 import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from 'cdbreact';
 import "./Footer.styles.scss";
 import om from '../../assets/ompinkgrad.png'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const bgBlack = { backgroundColor: '#ffa1a1', color: 'white' };
@@ -25,10 +26,10 @@ const Footer = () => {
           </CDBBox>
           <CDBBox>
             <p className="h5 mb-4" style={{ fontWeight: '300' }}>
-              Social Media
+              <Link to="" style={{textDecoration:"none",color:"white"}}>Social Media</Link>
             </p>
             <CDBBox flex="column" style={{ cursor: 'pointer', padding: '0' }}>
-              <CDBFooterLink href="/">Instagram</CDBFooterLink>
+            <a href="https://instagram.com/saiomyo0302?igshid=YmMyMTA2M2Y=" style={{textDecoration:"underline",color:"black"}}><CDBFooterLink>Instagram</CDBFooterLink></a>
             </CDBBox>
           </CDBBox>
           <CDBBox>
