@@ -29,7 +29,6 @@
                 text-decoration: none;
                 color: white;
             }
-                
                 padding: 15px;
                 margin-left: 10%;
                 margin-right: 10%;
@@ -38,6 +37,7 @@
                 padding-right: 10%;
                 box-shadow: #f2dde5 5px 10px;
                 transition: 0.5s;
+                border-radius: 0.5rem;
             }
             #example1:hover{
                 box-shadow: #f2dde5 3px 7px;
@@ -53,6 +53,7 @@
             height:5%;
             border-top: 5px solid #ffa1a1 ;
             border-left: 5px solid #ffa1a1;
+            border-radius: 0.5rem;
         } 
         .Languages-border-2{
             position: absolute;
@@ -62,6 +63,7 @@
             height:5%;
             border-bottom: 5px solid #ffa1a1;
             border-right: 5px solid #ffa1a1;
+            border-radius: 0.5rem;
         } 
         .Language-button{
             padding-left: 10%;
@@ -112,6 +114,7 @@
                     padding-right: 10%;
                     box-shadow: #f2dde5 5px 10px;
                     transition: 0.5s;
+                    border-radius: 0.5rem;
                 }
                 #example1:hover{
                     box-shadow: #f2dde5 3px 7px;
@@ -127,6 +130,7 @@
                 height:10%;
                 border-top: 5px solid #ffa1a1 ;
                 border-left: 5px solid #ffa1a1;
+                border-radius: 0.5rem;
             } 
             .Languages-border-2{
                 position: absolute;
@@ -136,6 +140,7 @@
                 height:10%;
                 border-bottom: 5px solid #ffa1a1;
                 border-right: 5px solid #ffa1a1;
+                border-radius: 0.5rem;
             } 
             .Language-button{
                 padding-left: 10%;
